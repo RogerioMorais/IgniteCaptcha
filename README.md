@@ -1,6 +1,11 @@
 # IgniteCaptcha
 IgniteCaptcha is a library for creating captcha for .Net Core 2.0 projects quickly and simply.
 
+|Package Name | NuGet line command |
+|-------------|--------------------|
+|IgniteCaptcha |Install-Package IgniteCaptcha -Version 1.0.0|
+
+
 For you can use the library, you have to create a folder on your file system, and map it as example in the box below in method Configure at Startup.cs file.
 
 	app.UseStaticFiles(new StaticFileOptions(){
