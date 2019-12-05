@@ -101,6 +101,7 @@ namespace RMorais.IgniteCaptcha
                 mst.ToArray()[paran].Name,
                 BindingFlags.GetField, null, null, new object[] { });
             result = b;
+            result.A = 0xFF;
 
             return result;
         }
